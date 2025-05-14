@@ -66,6 +66,9 @@ If this doesn't seem intutive, I would suggest writing out examples.
 
 """
 
+from typing import Counter
+
+
 def canConvert(str1, str2):
   if str1 == str2:
     return True

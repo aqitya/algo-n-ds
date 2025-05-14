@@ -40,6 +40,9 @@ Note: there is a lot of overhead with this solution compared to the standard DFS
       In other words, we are storing another dimension to the stack/queue (queue if you want to do BFS approach, which CAN work I believe?)
 """
 
+from typing import List
+
+
 class UnionFind:
   def __init__(self, size, grid):
     # UF = [[0 for _ in range(size)] for _ in range(size)]
